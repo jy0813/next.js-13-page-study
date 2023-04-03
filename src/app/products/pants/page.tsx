@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Pants = () => {
+const Page = () => {
   return (
       <div>
-        <h1>Pants</h1>
+        <h1>Pants Page!</h1>
       </div>
   );
 };
 
-export default Pants;
+export default Page;

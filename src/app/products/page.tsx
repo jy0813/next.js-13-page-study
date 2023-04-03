@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Index = () => {
+const Page = () => {
   return (
       <div>
-        <h1>Producs</h1>
+        <h1>producs Page!</h1>
       </div>
   );
 };
 
-export default Index;
+export default Page;
