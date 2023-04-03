@@ -3,7 +3,7 @@ import React from 'react';
 const Page = () => {
   return (
       <div>
-        <h1>producs Page!</h1>
+        <h1>products Page!</h1>
       </div>
   );
 };
