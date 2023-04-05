@@ -1,4 +1,5 @@
 import React from 'react';
+import {notFound} from "next/navigation";
 
 type Props = {
   params:{
@@ -6,6 +7,9 @@ type Props = {
   }
 }
 const Page = ({params}:Props) => {
+  if(params.slug === 'nothing') {
+    notFound()
+  }
   return (
       <div>
         <h1>{params.slug} Page!</h1>
